@@ -1,0 +1,19 @@
+{
+  "name": "MultiVision",
+  "version": "0.0.0",
+  "authors": [
+    "joeeames <joeeames@gmail.com>"
+  ],
+  "description": "\"Extreme Tech Training\"",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "toastr": "~2.0.1",
+    "angular": "~1.2.0",
+    "angular-resource": "~1.2.0",
+    "angular-route": "~1.2.0",
+    "bootstrap": "~3.0.2",
+    "angular-mocks": "~1.2.0"
+  }
+}
