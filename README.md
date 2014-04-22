@@ -1,5 +1,6 @@
 MEANAppsFiles
 =============
-A few files from my "Building AngularJS and Node.js Apps with the MEAN Stack" course on Pluralsight.com
+This course is up to date
 
+Notes:
 To run the node server, type "node web-server.js" from the directory that contains the web-server.js file
