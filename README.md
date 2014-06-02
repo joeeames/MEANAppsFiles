@@ -10,7 +10,11 @@ npm install --save express jade
 
 This will install version 3.4.4 of express.
 
-The course will be updated approximately the end of May.
+When you install passport & passport-local in Module 5 you will need to install specific versions as well
+Use the following command:
+npm install passport@0.1.7 passport-local@0.1.6 --save
+
+The updates for this course have been submitted for publication and should be public soon!!
 
 Notes:
-To run the node server, type "node web-server.js" from the directory that contains the web-server.js file
+To run the node server, type "node web-server.js" or "nodemon web-server.js" from the directory that contains the web-server.js file
