@@ -42,3 +42,16 @@ db.users.remove({})
 
 Notes:
 To run the node server, type "node web-server.js" or "nodemon web-server.js" from the directory that contains the web-server.js file
+
+## Crypto Changes
+In more recent versions of node.js update() and digest() are legacy methods. The new approach is to use the streaming API methods write() end() and read();
+
+```
+function hashPwd(salt, pwd){
+  var hmac = crypto.createHmac('sha1', salt);
+  hmac.setEncoding('hex');
+  hmac.write(pwd);
+  hmac.end();
+  return hmac.read();
+}
+```
