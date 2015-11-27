@@ -7,7 +7,7 @@ The latest version of express has deprecated the body parser middleware.
 
 That means that when you see the following line of code:
 ```
-app.use(bodyParser.json());
+app.use(bodyParser());
 ```
 you should instead use the following two lines of code:
 ```
